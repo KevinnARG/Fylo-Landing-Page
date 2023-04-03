@@ -132,12 +132,12 @@ header a:hover {
     border-radius: 0.8vh;
     color: white;
     font-weight: bolder;
-    box-shadow: 2px 2px 2px 2px #1468e5;
+    box-shadow: 1px 1px 1px 1px #1468e5;
 }
 
 #seccion1 button:hover {
     background-color: #0B5ED7;
-    box-shadow: 2px 2px 2px 2px #0B5ED7;
+    box-shadow: 1px 1px 1px 1px #0B5ED7;
 }
 
 /* DIVISION */
@@ -371,12 +371,12 @@ header a:hover {
     border-radius: 0.8vh;
     color: white;
     font-weight: bolder;
-    box-shadow: 2px 2px 2px 2px #1468e5;
+    box-shadow: 1px 1px 1px 1px #1468e5;
 }
 
 #seccion3 button:hover {
     background-color: #0B5ED7;
-    box-shadow: 2px 2px 2px 2px #0B5ED7;
+    box-shadow: 1px 1px 1px 1px #0B5ED7;
 }
 
 /* DIVISION */
@@ -497,12 +497,15 @@ footer a {
 
 #facebook:hover {
     background-color: #154c9f;
+    cursor: pointer;
 }
 
 #twitter:hover {
     background-color: #0D6EFD;
+    cursor: pointer;
 }
 
 #instagram:hover {
-    background-image: radial-gradient(rgb(255, 94, 0), rgb(249, 25, 160));
+    background-color: rgb(255, 94, 0);
+    cursor: pointer;
 }
